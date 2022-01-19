@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="content">
+    <textarea id="msg" cols="30" rows="10" placeholder="Encipta tu mensaje"></textarea>
+
+    <div class="botones">
+      <button id="cryp">Ecyptar</button>
+      <button id="decryp">Desencriptar</button>
+    </div>
+
+    <div id="advertencia">
+      <img src="assets/Vector.svg" alt="svg" height="16px" width="16px" />
+      <p id="txtadvertencia">Apenas letras minúsculas e sem acento.</p>
+    </div>
+
+    <div id="logoalura">
+      <img src="assets/alura.svg" alt="logoalura">
+
+    </div>
+    <div id="rectangulo"></div>
+    <textarea id="result" cols="30" rows="10"></textarea>
+
+    <button id="copy">Copiar</button>
+
+    <script src="encriptar.js"></script>
+  </div>
+  
+  
+</body>
+
+</html>
