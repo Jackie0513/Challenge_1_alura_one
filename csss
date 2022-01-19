@@ -1,0 +1,402 @@
+/* Encriptador - 2 Desktop */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+/* Light blue/light-blue-100 */
+background: #F3F5FC;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 400px;
+height: 944px;
+left: 1000px;
+top: 40px;
+
+/* White */
+background: #FFFFFF;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas. */
+
+position: absolute;
+width: 336px;
+height: 781px;
+left: 1032px;
+top: 72px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+/* Gray/gray-400 */
+color: #495057;
+
+
+
+/* Lorem ipsum dolor sit amet consectetur adipiscing elit Orci montes sit et diam risus scelerisque vitae est Tortor maecenas nunc ut laoreet Eget diam mauris quam quisque ut eget fringilla sit elit Libero sodales duis fames id diam feugiat aliquet non egestas */
+
+position: absolute;
+width: 680px;
+height: 288px;
+left: 240px;
+top: 168px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+color: #0A3871;
+
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 680px;
+height: 67px;
+left: 240px;
+top: 885px;
+
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+position: static;
+width: 328px;
+height: 67px;
+left: 0px;
+top: 0px;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+
+
+/* Button */
+
+position: static;
+width: 280px;
+height: 19px;
+left: 24px;
+top: 24px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 8px;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+position: static;
+width: 328px;
+height: 67px;
+left: 352px;
+top: 0px;
+
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+box-sizing: border-box;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 24px;
+
+
+/* Button */
+
+position: static;
+width: 280px;
+height: 19px;
+left: 24px;
+top: 24px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 8px;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+position: absolute;
+width: 336px;
+height: 67px;
+left: 1032px;
+top: 885px;
+
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+box-sizing: border-box;
+border-radius: 24px;
+
+
+/* Button */
+
+position: static;
+width: 288px;
+height: 19px;
+left: 24px;
+top: 24px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 8px;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 120px;
+height: 48px;
+left: 40px;
+top: 40px;
+
+
+
+/* Logo */
+
+position: static;
+width: 120px;
+height: 48px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 40px 0px;
+
+
+/* Vector */
+
+position: absolute;
+left: 36.67%;
+right: 37.43%;
+top: 0%;
+bottom: 0%;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+
+
+/* Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+
+position: static;
+display: none;
+width: 120px;
+height: 176px;
+left: 0px;
+top: 88px;
+
+background: rgba(255, 255, 255, 0.24);
+border-radius: 800px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 40px 0px;
+
+
+/* Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+
+position: static;
+display: none;
+width: 120px;
+height: 176px;
+left: 0px;
+top: 304px;
+
+background: rgba(255, 255, 255, 0.24);
+border-radius: 800px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 40px 0px;
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 252px;
+height: 18px;
+left: 240px;
+top: 851px;
+
+
+
+/* bi:exclamation-circle-fill */
+
+position: static;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 1px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Gray/gray-400 */
+background: #495057;
+
+
+/* Apenas letras minúsculas e sem acento. */
+
+position: static;
+width: 228px;
+height: 18px;
+left: 24px;
+top: 0px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+/* Gray/gray-400 */
+color: #495057;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 8px;
